@@ -13,3 +13,10 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
+logging.debug("This is a DEBUG message (will not be shown with INFO level)")
+logging.info("This is an INFO message")
+logging.warning("This is a WARNING message")
+logging.error("This is an ERROR message")
+logging.critical("This is a CRITICAL message")
+
+print(f"Log file created: {LOG_FILE_PATH}")
